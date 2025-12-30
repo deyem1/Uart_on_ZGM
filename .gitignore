@@ -1,0 +1,60 @@
+# .gitignore for Uart_on_ZGM embedded project
+
+GNU ARM v* - Debug/
+GNU ARM v*/Debug/
+Debug/
+Release/
+
+# Build artifacts
+*.o
+*.d
+*.axf
+*.elf
+*.bin
+*.hex
+*.s37
+*.map
+*.lst
+*.sym
+
+# Makefile generated helper files
+objects.mk
+subdir.mk
+
+# Common build folders
+/build/
+/out/
+/bin/
+
+# Auto-generated files
+autogen/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.launch
+*.cproject
+.settings/
+*.code-workspace
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temp and backup files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+*.orig
+
+# Python envs 
+venv/
+env/
+__pycache__/
+
+# End of .gitignore
